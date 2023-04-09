@@ -1,0 +1,35 @@
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/header-pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header:after {
+    content: " ";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.814);
+  }
+
+  nav, .jumbotron {
+    z-index: 2;
+  }
+
+  .main-title {
+    font-style: italic;
+  }
+
+//   .main-title {
+//     color: #fff;
+
+//   }
+
