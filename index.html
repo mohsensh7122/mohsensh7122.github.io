@@ -2,174 +2,246 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/de37e81820.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/de37e81820.js" crossorigin="anonymous"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Mohsen Shirazi Nalband | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Mohsen Shirazi Nalband | Portfolio</title>
 </head>
 
 <body>
-    <header class="position-relative">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid px-4">
-                <h1 class="navbar-brand text-white" href="#">Mohsen Shirazi</h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- jumbotron -->
-
-        <div class="jumbotron text-center text-white position-absolute top-50 start-50 translate-middle">
-            <div class="container">
-                <h1 class="display-4 mb-4 main-title">A Web Developer</h1>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">See My Projects</a>
-                </p>
-            </div>
+  <header class="position-relative">
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+      <div class="container-fluid px-4">
+        <h1 class="navbar-brand text-white" href="#">Mohsen Shirazi</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- /jumbotron -->
-    </header>
+      </div>
+    </nav>
 
-    <!-- About -->
-    <!-- <section class="about">
+    <!-- jumbotron -->
+
+    <div class="jumbotron text-center text-white position-absolute top-50 start-50 translate-middle">
+      <div class="container">
+        <h1 class="display-4 mb-4 main-title">A Web Developer</h1>
+        <p class="lead">
+          <a class="btn btn-primary btn-sm" href="#projects" role="button">See My Projects</a>
+        </p>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+  </header>
+
+  <!-- About -->
+  <!-- <section class="about">
         <div class="container">
 
         </div>
     </section> -->
-    <!-- /About -->
+  <!-- /About -->
 
-    <!-- Projects -->
+  <!-- Skills -->
 
-    <section class="about">
-        <div class="container">
-            <h2 id="projects" class="display-4 text-center my-5">My Projects</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                  <div class="card mb-3">
-                    <img class="card-img-top" src="images/game-show-app.png" alt="Game Show App Project">
-                    <div class="card-body">
-                      <h4 class="card-title">Game Show App</h4>
-                      <p class="card-text">This project is a browser version of "Wheel of Success", a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.</p>
-                      <div class="container-xxl">
-                        <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/game-show-app/" target="_blank">View the Project</a>
-                        <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/game-show-app" target="_blank">View the Code</a>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-6 col-lg-4">
-                  <div class="card mb-3">
-                    <img class="card-img-top" src="images/web-app-dashboard.png" alt="Web App Dashboard Project">
-                    <div class="card-body">
-                      <h4 class="card-title">WebApp Dashboard</h4>
-                      <p class="card-text">A complete web dashboard with JavaScript-driven charts and graphs.</p>
-                      <div class="container">
-                        <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/WebApp-Dashboard/" target="_blank">View the Project</a>
-                        <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/WebApp-Dashboard" target="_blank">View the Code</a>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-6 col-lg-4">
-                  <div class="card mb-3">
-                    <img class="card-img-top" src="images/pig-game.png" alt="The PIG game">
-                    <div class="card-body">
-                      <h4 class="card-title">PIG Game</h4>
-                      <p class="card-text">A simple dice game first described in print by John Scarne in 1945. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.</p>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/pig-game/" target="_blank">View the Project</a>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/pig-game" target="_blank">View the Code</a>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-6 col-lg-4">
-                  <div class="card mb-3">
-                    <img class="card-img-top" src="images/registration-form.png" alt="The registration form project">
-                    <div class="card-body">
-                      <h4 class="card-title">Online Registration Form</h4>
-                      <p class="card-text">A responsive, mobile-friendly registration form using a wide variety of HTML form input types and attributes.</p>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/SignUp-Form/" target="_blank">View the Project</a>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/SignUp-Form" target="_blank">View the Code</a>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-6 col-lg-4">
-                  <div class="card mb-3">
-                    <img class="card-img-top" src="images/api-directory.png" alt="The API Employee Directory project">
-                    <div class="card-body">
-                      <h4 class="card-title">API Directory</h4>
-                      <p class="card-text">I used the Random User Generator API to grab information for 12 random"employees", and used that data to build a prototype for a startup employee directory.</p>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/API-directory/" target="_blank">View the Project</a>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/API-directory" target="_blank">View the Code</a>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-6 col-lg-4">
-                  <div class="card">
-                    <img class="card-img-top" src="images/interactive-photo-gallery.png" alt="The interactive photo gallery project">
-                    <div class="card-body">
-                      <h4 class="card-title">Interactive Photo Gallery</h4>
-                      <p class="card-text">An interactive photo gallery using JavaScript and CSS Grid Layout. At the top of the page, there is a search area where photos will hide and show depending on user input. When the user clicks on a thumbnail, the photo will display in a lightbox with "back" and "previous" arrows to cycle through photos.</p>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://mohsensh7122.github.io/interactive-photo-gallery/" target="_blank">View the Project</a>
-                      <a type="button" class="btn btn-primary btn-lg" href="https://github.com/mohsensh7122/interactive-photo-gallery" target="_blank">View the Code</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <section id="skills">
+    <div class="container">
+      <h2 class="display-4 text-center my-5">Skills</h2>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/svg/html.svg" alt="html icon">
+          </div>
         </div>
-    </section>
 
-    <!-- /Projects -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/svg/css.svg" alt="css icon">
+          </div>
+        </div>
 
-    <!-- Contact -->
-    <section id="contact" class="bg-black">
-      <div class="container">
-        <h2 class="contact-title display-4 text-center my-5">Get In Touch</h2>
-        <div class="icons">
-          <a href="https://github.com/mohsensh7122" class="github"><i class="fa-brands fa-github fa-2xl"></i></a>
-          <a href="https://www.linkedin.com/in/mohsen-shirazi-nalband-9297091b4/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-          <a href="https://twitter.com/MohsenSh2132" class="twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a>
-          <a href="" class="resume"><i class="fa-solid fa-file fa-2xl"></i></a>
-          <a href="mailto:email@example.com" class="email fa-2xl"><i class="fa-solid fa-envelope"></i></a>
-          
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/svg/javascript.svg" alt="javascript icon">
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/svg/sass.svg" alt="sass icon">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </section>
+  <!-- /Skills -->
+  <!-- Projects -->
+
+  <section class="about">
+    <div class="container">
+      <h2 id="projects" class="display-4 text-center my-5">My Projects</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 ">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/game-show-app.png" alt="Game Show App Project">
+            <div class="card-body">
+              <h4 class="card-title">Game Show App</h4>
+              <p class="card-text">This project is a browser version of "Wheel of Success", a word guessing game where
+                players will click letters from an onscreen keyboard to try to guess a random phrase.</p>
+              <div >
+                <a type="button" class="btn btn-primary btn-sm" href="https://mohsensh7122.github.io/game-show-app/"
+                  target="_blank">View the Project</a>
+                <a type="button" class="btn btn-primary btn-sm" href="https://github.com/mohsensh7122/game-show-app"
+                  target="_blank">View the Code</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/web-app-dashboard.png" alt="Web App Dashboard Project">
+            <div class="card-body">
+              <h4 class="card-title">WebApp Dashboard</h4>
+              <p class="card-text">A complete web dashboard with JavaScript-driven charts and graphs.</p>
+              <div class="container">
+                <a type="button" class="btn btn-primary btn-sm" href="https://mohsensh7122.github.io/WebApp-Dashboard/"
+                  target="_blank">View the Project</a>
+                <a type="button" class="btn btn-primary btn-sm" href="https://github.com/mohsensh7122/WebApp-Dashboard"
+                  target="_blank">View the Code</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/pig-game.png" alt="The PIG game">
+            <div class="card-body">
+              <h4 class="card-title">PIG Game</h4>
+              <p class="card-text">A simple dice game first described in print by John Scarne in 1945. Players take
+                turns to roll a single dice as many times as they wish, adding all roll results to a running total, but
+                losing their gained score for the turn if they roll a 1.</p>
+              <a type="button" class="btn btn-primary btn-sm" href="https://mohsensh7122.github.io/pig-game/"
+                target="_blank">View the Project</a>
+              <a type="button" class="btn btn-primary btn-sm" href="https://github.com/mohsensh7122/pig-game"
+                target="_blank">View the Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/registration-form.png" alt="The registration form project">
+            <div class="card-body">
+              <h4 class="card-title">Online Registration Form</h4>
+              <p class="card-text">A responsive, mobile-friendly registration form using a wide variety of HTML form
+                input types and attributes.</p>
+              <a type="button" class="btn btn-primary btn-sm" href="https://mohsensh7122.github.io/SignUp-Form/"
+                target="_blank">View the Project</a>
+              <a type="button" class="btn btn-primary btn-sm" href="https://github.com/mohsensh7122/SignUp-Form"
+                target="_blank">View the Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/api-directory.png" alt="The API Employee Directory project">
+            <div class="card-body">
+              <h4 class="card-title">API Directory</h4>
+              <p class="card-text">I used the Random User Generator API to grab information for 12 random"employees",
+                and used that data to build a prototype for a startup employee directory.</p>
+              <a type="button" class="btn btn-primary btn-sm" href="https://mohsensh7122.github.io/API-directory/"
+                target="_blank">View the Project</a>
+              <a type="button" class="btn btn-primary btn-sm" href="https://github.com/mohsensh7122/API-directory"
+                target="_blank">View the Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3 box-shadow">
+            <img class="card-img-top" src="images/interactive-photo-gallery.png"
+              alt="The interactive photo gallery project">
+            <div class="card-body">
+              <h4 class="card-title">Interactive Photo Gallery</h4>
+              <p class="card-text">An interactive photo gallery using JavaScript and CSS Grid Layout. At the top of the
+                page, there is a search area where photos will hide and show depending on user input. When the user
+                clicks on a thumbnail, the photo will display in a lightbox with "back" and "previous" arrows to cycle
+                through photos.</p>
+              <a type="button" class="btn btn-primary btn-sm"
+                href="https://mohsensh7122.github.io/interactive-photo-gallery/" target="_blank">View the Project</a>
+              <a type="button" class="btn btn-primary btn-sm"
+                href="https://github.com/mohsensh7122/interactive-photo-gallery" target="_blank">View the Code</a>
+            </div>
+          </div>
         </div>
       </div>
-      
-    </section>
-    <!-- /Contact -->
+    </div>
+  </section>
+
+  <!-- /Projects -->
+
+  <!-- Contact -->
+  <section id="contact" class="bg-black">
+    <div class="container">
+      <h2 class="contact-title display-4 text-center my-5">Get In Touch</h2>
+      <div class="icons">
+        <a href="https://github.com/mohsensh7122" class="github"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="https://www.linkedin.com/in/mohsen-shirazi-nalband-9297091b4/" class="linkedin"><i
+            class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://twitter.com/MohsenSh2132" class="twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="" class="resume"><i class="fa-solid fa-file fa-2xl"></i></a>
+        <a href="mailto:email@example.com" class="email fa-2xl"><i class="fa-solid fa-envelope"></i></a>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- /Contact -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
