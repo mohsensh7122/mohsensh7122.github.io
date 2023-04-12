@@ -11,10 +11,11 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-.navbar-collapse {
-  flex: 0;
+@media (min-width: 992px) {
+  .navbar-collapse {
+    flex: 0;
+  }
 }
-
 .nav-item {
   text-align: right;
 }
@@ -64,6 +65,15 @@ nav, .jumbotron {
 .icons a i {
   width: 50px;
   height: 50px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
