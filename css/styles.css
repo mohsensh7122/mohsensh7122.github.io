@@ -3,10 +3,6 @@
   color: #fff;
 }
 
-.box-shadow {
-  box-shadow: 5px 5px 15px 2px #000000;
-}
-
 body {
   font-family: "Playfair Display", serif;
 }
@@ -49,13 +45,16 @@ nav, .jumbotron {
   font-style: italic;
 }
 
+.navbar-toggler-icon {
+  stroke: white;
+}
+
 #contact {
   color: #FFF;
 }
 
 .contact-title {
   padding-top: 20px;
-  font-style: italic;
 }
 
 .icons {
@@ -74,6 +73,20 @@ nav, .jumbotron {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.skill-icon-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.skill-icon {
+  margin: 0 auto;
+}
+
+.figma-icon {
+  width: 130px;
 }
 
 /*# sourceMappingURL=styles.css.map */
