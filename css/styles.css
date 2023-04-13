@@ -5,6 +5,13 @@
 
 body {
   font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 @media (min-width: 992px) {
@@ -14,6 +21,11 @@ body {
 }
 .nav-item {
   text-align: right;
+}
+
+.navbar-inverse, .navbar-toggler, .icon-bar {
+  background-color: #0d6efd;
+  color: #fff;
 }
 
 header {
@@ -43,10 +55,6 @@ nav, .jumbotron {
 
 .main-title {
   font-style: italic;
-}
-
-.navbar-toggler-icon {
-  stroke: white;
 }
 
 #contact {
